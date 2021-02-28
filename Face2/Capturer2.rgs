@@ -1,0 +1,15 @@
+HKCR
+{
+	NoRemove CLSID
+	{
+		ForceRemove {C5FBC281-361A-4F0A-9EE8-1A581D937634} = s 'Capturer2'
+		{
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			TypeLib = s '{2A2E356B-D77C-4D55-9A1A-2A951C9A7E8B}'
+			Version = s '1.0'
+		}
+	}
+}

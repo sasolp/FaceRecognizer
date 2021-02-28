@@ -1,0 +1,57 @@
+// Face2.idl : IDL source for Face2
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (Face2.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(a817e7a2-43fa-11d0-9e44-00aa00b6770a),
+	dual,	
+	pointer_default(unique)
+]
+interface IComponentRegistrar : IDispatch
+{
+	[id(1)]	HRESULT Attach([in] BSTR bstrPath);
+	[id(2)]	HRESULT RegisterAll();
+	[id(3)]	HRESULT UnregisterAll();
+	[id(4)]	HRESULT GetComponents([out] SAFEARRAY(BSTR)* pbstrCLSIDs, [out] SAFEARRAY(BSTR)* pbstrDescriptions);
+	[id(5)]	HRESULT RegisterComponent([in] BSTR bstrCLSID);
+	[id(6)] HRESULT UnregisterComponent([in] BSTR bstrCLSID);
+};
+
+[
+	object,
+	uuid(9625B521-6F60-49C4-93E0-82E794F4F6FB),
+	pointer_default(unique)
+]
+interface ICapturer2 : IUnknown{
+	[] HRESULT Capture(int id);
+};
+[
+	uuid(2A2E356B-D77C-4D55-9A1A-2A951C9A7E8B),
+	version(1.0),
+	custom(a817e7a1-43fa-11d0-9e44-00aa00b6770a,"{FCB6F471-A764-4E98-8EA7-0BC2537457A6}")
+]
+library Face2Lib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(FCB6F471-A764-4E98-8EA7-0BC2537457A6)		
+	]
+	coclass CompReg
+	{
+		[default] interface IComponentRegistrar;
+	};
+	[
+		uuid(C5FBC281-361A-4F0A-9EE8-1A581D937634)		
+	]
+	coclass Capturer2
+	{
+		[default] interface ICapturer2;
+	};
+};
+
