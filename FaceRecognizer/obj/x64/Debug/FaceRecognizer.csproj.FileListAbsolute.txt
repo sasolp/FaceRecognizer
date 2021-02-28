@@ -1,0 +1,12 @@
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\bin\x64\Debug\FaceRecognizer.exe.config
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\FaceRecognizer.csproj.ResolveComReference.cache
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\Interop.FaceLib.dll
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\FaceRecognizer.MainFrm.resources
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\FaceRecognizer.Properties.Resources.resources
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\GenerateResource.read.1.tlog
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\GenerateResource.write.1.tlog
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\bin\x64\Debug\FaceRecognizer.exe
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\bin\x64\Debug\FaceRecognizer.pdb
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\FaceRecognizer.exe
+C:\Users\sasol\Documents\VisualStudio2010\Projects\FaceRecognizer\FaceRecognizer\obj\x64\Debug\FaceRecognizer.pdb
